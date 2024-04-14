@@ -1,5 +1,6 @@
 import react from 'react';
-import Message from './message'; // Corrected import statement
+import Message from './message';
+import Card from './card';
 import './App.css';
 
 function App(){
@@ -8,6 +9,7 @@ function App(){
   <div className='App'>
    <div className='page-grid'>
      <Message />
+     <Card />
     </div>
   </div>
   )
